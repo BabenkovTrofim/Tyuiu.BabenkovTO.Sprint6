@@ -15,7 +15,7 @@ namespace Tyuiu.BabenkovTO.Sprint6.Task6.V18.Lib
                     string[] words = line.Split(' ');
                     foreach (string word in words)
                     {
-                        if (word.Contains("n") == true || word.Contains("N") == true)
+                        if (word.Contains("n") == true)
                         {
                             resStr += word + " ";
                         }
